@@ -24,7 +24,7 @@ const RideSection = ({ activeSection }) => {
           : Landrides
       );
       setFade(true); 
-    }, 200);
+    }, 300);
   }, [activeSection]);
 
   useEffect(() => {
