@@ -47,7 +47,7 @@ const Wheel = ({ activeSection, setActiveSection }) => {
           <img src="../../land.svg" alt="land rides"/>
           <div className="absolute left-[calc(100%+4.375rem)] top-1/2 flex -translate-y-1/2 flex-col gap-0.5 text-white">
             <span className="text-2xl inline-block font-mulish font-normal !leading-[1.255]">Land</span>
-            <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-violet-600 px-3">73 Rides</span>
+            <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-800 px-3">73 Rides</span>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ const Wheel = ({ activeSection, setActiveSection }) => {
           <img src="../../water.svg" alt="water rides"/>
           <div className="absolute left-[calc(100%+4.375rem)] top-1/2 flex -translate-y-1/2 flex-col gap-0.5 text-white">
             <span className="text-2xl inline-block font-mulish font-normal !leading-[1.255]">Water</span>
-            <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-violet-600 px-3">54 Rides</span>
+            <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-800 px-3">54 Rides</span>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ const Wheel = ({ activeSection, setActiveSection }) => {
           <img src="../../kids.svg" alt="kids rides"/>
           <div className="absolute left-[calc(100%+4.375rem)] top-1/2 flex -translate-y-1/2 flex-col gap-0.5 text-white">
             <span className="text-2xl inline-block font-mulish font-normal !leading-[1.255]">Kids</span>
-            <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-violet-600 px-3">35 Rides</span>
+            <span className="text-sm font-mulish font-normal !leading-[1.255] flex h-6 w-max items-center justify-center rounded-full bg-blue-800 px-3">35 Rides</span>
           </div>
         </div>
       </div>
