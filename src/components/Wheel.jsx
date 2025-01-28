@@ -1,7 +1,6 @@
-import { useState } from "react";
+/* eslint-disable react/prop-types */
 
-const Wheel = () => {
-  const [activeSection, setActiveSection] = useState("land");
+const Wheel = ({ activeSection, setActiveSection }) => {
 
   const getCircleStyle = () => {
     switch (activeSection) {
